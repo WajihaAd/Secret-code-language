@@ -2,7 +2,7 @@ import random
 def main():
   sentence=input("Enter the secret code:\n")
   options=int(input("Enter 1 for encoding and 2 for decoding and 3 for quit: "))
-  if options==1 and options==2 and option==3:
+  if options==1 and options==2 and options==3:
     raise ValueError("Enter a valid option")
   match options:
     case 1:
